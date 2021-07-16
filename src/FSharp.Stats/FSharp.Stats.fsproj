@@ -106,6 +106,12 @@
     <Compile Include="Distributions\Discrete.fs" />
     <Compile Include="Distributions\Distance.fs" />
     <Compile Include="Distributions\KernelDensity.fs" />
+    <!-- HyperParameterTuning -->
+    <Compile Include="HyperParameterTuning\HyperParameterTuning.fs" />
+    <Compile Include="HyperParameterTuning\GridSearch.fs" />
+    <Compile Include="HyperParameterTuning\RandomSearch.fs" />
+    <Compile Include="HyperParameterTuning\BayesianOptimization.fs" />
+    <Compile Include="HyperParameterTuning\EvolutionaryAlgorithm.fs" />
     <!-- Testing -->
     <Compile Include="Testing\Tables.fs" />
     <Compile Include="Testing\TestStatistics.fs" />
